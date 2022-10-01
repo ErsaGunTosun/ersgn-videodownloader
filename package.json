@@ -1,0 +1,25 @@
+{
+  "name": "ersgn-videodownloader",
+  "version": "0.0.2",
+  "description": "yotube and facebook video convetor app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "youtube",
+    "facebook",
+    "video",
+    "download",
+    "app",
+    "convertor"
+  ],
+  "author": "ErsaGun",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^11.1.1",
+    "fb-video-downloader": "^1.0.3",
+    "ytdl-core": "^4.11.0"
+  }
+}
